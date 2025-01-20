@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ssm2024.capstone">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="수세미"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="susemi2024.ssm2024.capstone.SelectedCategoryActivity"></activity>
+        <activity android:name="susemi2024.ssm2024.capstone.CustomScannerActivity" />
+        <activity android:name="susemi2024.ssm2024.capstone.su_CategoryActivity" />
+        <activity android:name="susemi2024.ssm2024.capstone.InfoActivity" />
+        <activity android:name="susemi2024.ssm2024.capstone.AddActivity" />
+        <activity android:name="susemi2024.ssm2024.capstone.ModActivity" />
+        <activity android:name="susemi2024.ssm2024.capstone.MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="susemi2024.ssm2024.capstone.AlarmReceiver"
+            android:enabled="true"
+            android:exported="false"
+            />
+
+        <service
+            android:name="susemi2024.ssm2024.capstone.AlarmService"
+            android:enabled="true"
+            />
+    </application>
+
+</manifest>

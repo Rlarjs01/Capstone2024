@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="PrimaryColor">#1ABC9C</color>
+    <color name="PrimaryDarkColor">#16A085</color>
+    <color name="SecondColor">#2C3E50</color>
+    <color name="AccentColor">#E74C3C</color>
+    <color name="Black">#000000</color>
+    <color name="White">#FFFFFF</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorBox">#FFFFFF</color>
+    <color name="color1">#FFFFFF</color>
+    <color name="textColorTitle">#000000</color>
+
+    <color name="colorPrimary">#EED6C0</color>
+    <color name="colorPrimaryDark">#bdbdbd</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="ButtonTextColor">#695E54</color>
+
+    <color name="textColorSub">#757575</color>
+
+
+    <color name="color2">#16A085</color>
+    <color name="color3">#2C3E50</color>
+    <color name="color4">#000000</color>
+    <color name="color5">#ffffff</color>
+    <color name="color6">#E74C3C</color>
+
+
+</resources>
